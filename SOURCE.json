@@ -1,8 +1,9 @@
 {
   "monorepo": "https://github.com/fluentxverse/fluentxverse-monorepo",
-  "commit": "c9696e491149275bc01df3b8d05d29a15263257a",
+  "commit": "0b10bf263db4d9bb599a15f17b41d6911f30b91e",
   "app": "fluentxverse-go-server",
   "includedFiles": [
+    "fluentxverse-go-server/.dockerignore",
     "fluentxverse-go-server/.env.example",
     "fluentxverse-go-server/Dockerfile",
     "fluentxverse-go-server/Makefile",
@@ -24,6 +25,7 @@
     "fluentxverse-go-server/internal/http/app.go",
     "fluentxverse-go-server/internal/http/app_test.go",
     "fluentxverse-go-server/internal/http/middleware/middleware.go",
+    "fluentxverse-go-server/internal/http/routes/proof_test.go",
     "fluentxverse-go-server/internal/http/routes/routes.go",
     "fluentxverse-go-server/internal/inbox/service.go",
     "fluentxverse-go-server/internal/lesson/service.go",
@@ -31,6 +33,7 @@
     "fluentxverse-go-server/internal/notification/service.go",
     "fluentxverse-go-server/internal/proof/bridge/tutor_cert_bridge.mjs",
     "fluentxverse-go-server/internal/proof/service.go",
+    "fluentxverse-go-server/internal/proof/service_test.go",
     "fluentxverse-go-server/internal/realtime/hub.go",
     "fluentxverse-go-server/internal/response/response.go",
     "fluentxverse-go-server/internal/schedule/service.go",
